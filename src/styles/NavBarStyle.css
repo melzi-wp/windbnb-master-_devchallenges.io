@@ -1,0 +1,94 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+.triangleLogo {
+    position: absolute;
+    width: 21.65px;
+    height: 18.75px;
+    left: 94px;
+    top: 46px;
+    color: #EB5757;
+    border-radius: 3px;
+}
+
+.header-logo {
+    position: absolute;
+    width: 69px;
+    height: 14px;
+    left: 121px;
+    top: 38px;
+
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 21px;
+
+    color: #eb5757;
+}
+.search {
+    position: absolute;
+    width: 297px;
+    height: 55px;
+    top: 32px;
+    left: 900px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 16px;
+}
+.local {
+    position: relative;
+    width: 106px;
+    height: 18px;
+    left:20px;
+    top: 6px;
+    font-family: 'Muli';
+    font-size: 14px;
+    line-height: 16px;
+    color: #333333;
+   
+}
+.local::after{
+    content: '';
+    position: absolute;
+    width: 55px;
+    height: 0px;
+    top: 7px;
+    left:86px;
+    border: 1px solid #F2F2F2;
+    transform: rotate(90deg);
+}
+.search-p{
+    position: relative;
+    width: 74px;
+    height: 18px;
+    left: 152px;
+    top: -27px;
+    font-family: 'Muli';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #BDBDBD;
+}
+.search-p::after{
+    content: '';
+    position: absolute;
+    width: 55px;
+    height: 0px;
+    top: 7px;
+    left:60px;
+    border: 1px solid #F2F2F2;
+    transform: rotate(90deg);
+}
+.search_icon{
+    position: absolute;
+    Width:25px;
+    Height:25px;
+    left: 86%;
+    right: 7.84%;
+    top: 30%;
+    bottom: 93.76%;
+}
+
